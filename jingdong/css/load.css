@@ -1,0 +1,181 @@
+html,
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /* background-color: pink; */
+}
+
+.header span {
+    flex: 1;
+    font-size: 24px;
+    vertical-align: top;
+    margin-left: 15px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.sm a {
+    color: #999;
+    font-weight: 400;
+}
+
+.zh a {
+    color: red;
+    font-weight: 400;
+}
+
+a:hover {
+    color: red;
+}
+
+.right {
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.right a {
+    color: #999;
+}
+
+.right a:hover {
+    color: rgb(156, 9, 9);
+}
+
+.conent {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: antiquewhite;
+    background-image: url(../images/background.png);
+}
+
+.sm {
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    /* border: 1px solid #000; */
+    float: left;
+    margin-left: 10px;
+}
+
+.zh {
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    /* border: 1px solid #000; */
+    float: right;
+    margin-right: 10px;
+    color: red;
+}
+
+.form {
+    position: absolute;
+    left: 602px;
+    top: 93px;
+    width: 300px;
+    height: 250px;
+    background-color: #fff;
+}
+
+.two {
+    /* 清楚浮动效果 */
+    clear: both;
+    width: 280px;
+    height: 100px;
+    /* border: 1px solid #000; */
+}
+
+#user {
+    width: 38px;
+    height: 38px;
+    line-height: 40px;
+    display: inline-block;
+    border: 1px solid #000;
+}
+
+#pwd {
+    width: 38px;
+    height: 38px;
+    line-height: 40px;
+    display: inline-block;
+    border: 1px solid #000;
+}
+
+.u {
+    margin-bottom: 10px;
+}
+
+.three a {
+    margin-bottom: 5px;
+    /* border: 1px solid #000; */
+    font-size: 10px;
+    float: right;
+    color: gray;
+}
+
+.three a:hover {
+    color: red;
+}
+
+.three p {
+    margin-right: 40px;
+}
+
+.three p a {
+    clear: both;
+    border: 1px solid #000;
+    background-color: red;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+}
+
+.footer {
+    display: block;
+    width: 100%;
+    height: 100px;
+    /* background-color: black; */
+    text-align: center;
+}
+
+input {
+    width: 200px;
+    height: 36px;
+    vertical-align: top;
+    border: 1px solid #000;
+    margin-left: -3px;
+}
+
+.footer p {
+    color: gray;
+    font-size: 12px;
+}
+
+.footer p a {
+    color: gray;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.footer p a:hover {
+    color: rgb(145, 6, 6);
+}
